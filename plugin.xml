@@ -35,12 +35,16 @@
       <engine name="cordova-android" version=">=9.0.0" />
     </engines>
 
+    <js-module src="www/request-legacy-external-storage.js" name="request-legacy-external-storage">
+      <clobbers target="requesLegacyExternalStorage" />
+    </js-module>
+
     <!-- android -->
     <platform name="android">
-      <edit-config file="AndroidManifest.xml"
+      <config-file file="AndroidManifest.xml"
                    target="/manifest/application"
                    mode="merge">
           <application android:requestLegacyExternalStorage="true" />
-      </edit-config>
+      </config-file>
   </platform>
 </plugin>
