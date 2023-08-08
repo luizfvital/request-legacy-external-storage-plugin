@@ -30,9 +30,10 @@
     <repo>https://github.com/luizfvital/request-legacy-external-storage-plugin</repo>
     <issue>https://github.com/luizfvital/request-legacy-external-storage-plugin/issues</issue>
 
-    <!-- <js-module src="www/request-legacy-external-storage-plugin.js" name="request-legacy-external-storage-plugin">
-        <clobbers target="requestLegacyExternalStoragePlugin" />
-    </js-module> -->
+    <engines>
+      <engine name="cordova" version=">=9.0.0"/>
+      <engine name="cordova-android" version=">=9.0.0" />
+    </engines>
 
     <!-- android -->
     <platform name="android">

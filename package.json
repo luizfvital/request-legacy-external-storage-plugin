@@ -1,0 +1,19 @@
+{
+  "name": "requestlegacyexternalstorageplugin",
+  "version": "1.0.0",
+  "description": "Allow to use legacy external storage on Android 10",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizfvital/request-legacy-external-storage-plugin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizfvital/request-legacy-external-storage-plugin/issues"
+  },
+  "homepage": "https://github.com/luizfvital/request-legacy-external-storage-plugin#readme"
+}
