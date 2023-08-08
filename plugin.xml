@@ -40,11 +40,13 @@
     </js-module>
 
     <!-- android -->
+    <!-- Adds requestLegacyExternalStorage for Android 10 -->
+    <!-- https://developer.android.com/training/data-storage/use-cases#access-file-paths -->
     <platform name="android">
-      <config-file file="AndroidManifest.xml"
+      <edit-config file="AndroidManifest.xml"
                    target="/manifest/application"
                    mode="merge">
           <application android:requestLegacyExternalStorage="true" />
-      </config-file>
+      </edit-config>
   </platform>
 </plugin>
